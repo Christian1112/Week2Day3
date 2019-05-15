@@ -1,8 +1,8 @@
 public class Books extends Product {
 
-    private String title;
-    private String author;
-    private int pages;
+    public String title;
+    public String author;
+    public int pages;
 
     Books (String name, String description, int price, String title, String author, int pages){
         super(name, description, price);

@@ -1,8 +1,8 @@
 public class Product {
 
-    private String name;
-    private String description;
-    private int price;
+    public String name;
+    public String description;
+    public int price;
 
     Product (String name, String description, int price){
 

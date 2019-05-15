@@ -41,5 +41,9 @@ public class Main {
          */
 
         //A4
+
+        EBook eBook1 = new EBook ("Harry Potter", "Fantasy", 20, "Harry Potter", "J.K. Rowling", 500, "https://lms.codefactory.live/mod/page/view.php?id=1142");
+        System.out.println(eBook1.toString());
     }
+
 }
