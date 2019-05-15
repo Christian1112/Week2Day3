@@ -41,9 +41,14 @@ public class Main {
          */
 
         //A4
+        Product[] allProducts = {
+                new EBook("Harry Potter", "Fantasy", 20, "Harry Potter", "J.K. Rowling", 500, "https://lms.codefactory.live/mod/page/view.php?id=1142"),
+                new PhysicalBook("Lord of the Rings", "Fantasy", 15, "Lord of the Rings", "J.R.R. Tolkien", 500, 2)
+        };
 
-        EBook eBook1 = new EBook ("Harry Potter", "Fantasy", 20, "Harry Potter", "J.K. Rowling", 500, "https://lms.codefactory.live/mod/page/view.php?id=1142");
-        System.out.println(eBook1.toString());
+        for(int i = 0; i < allProducts.length; i++){
+            System.out.println(allProducts[i].toString());
+        }
     }
 
 }
