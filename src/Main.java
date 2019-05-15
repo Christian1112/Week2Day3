@@ -16,10 +16,27 @@ public class Main {
         */
 
         //A2
+        /*
         DogPark dog1 = new DogPark(2015,"Benjamin","stretching");
         System.out.println("The dog was born in " + dog1.getBirthYear() + ", the owners name is " + dog1.getOwnerName() + ", the dog is " + dog1.getBehaviour() + ".");
 
         dog1.setBirthYear(2019);
         System.out.println("The dog was born in " + dog1.getBirthYear() + ", the owners name is " + dog1.getOwnerName() + ", the dog is " + dog1.getBehaviour() + ".");
+         */
+
+        //A3
+
+        Student[] allStudents = {
+                new Student("Christian Simic", 1992, "3b"),
+                new Student("Benjamin Schneider", 1997, "1c"),
+                new Student("Simon Blaha", 1990, "7b"),
+                new Student("Judith Lang-Ladurner", 1980, "6d"),
+                new Student("Annina Henninger", 1980, "6a"),
+                new Student("Jenny Tang", 1995, "3c"),
+        };
+
+        for(int i = 0; i < allStudents.length; i++){
+            System.out.println(allStudents[i].printAllData());
+        }
     }
 }
