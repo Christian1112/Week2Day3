@@ -25,7 +25,7 @@ public class Main {
          */
 
         //A3
-
+        /*
         Student[] allStudents = {
                 new Student("Christian Simic", 1992, "3b"),
                 new Student("Benjamin Schneider", 1997, "1c"),
@@ -38,5 +38,8 @@ public class Main {
         for(int i = 0; i < allStudents.length; i++){
             System.out.println(allStudents[i].printAllData());
         }
+         */
+
+        //A4
     }
 }
